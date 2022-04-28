@@ -20,6 +20,10 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <title>Agent Registration</title>
   </head>
   <body class="bg-light">
@@ -125,177 +129,210 @@
           get back:
         </div>
       </div>
-      <form class="container mb-5 p-5 card dynamic_form">
-        <div class="mb-3 dynamic_form_heading">Details Required</div>
-        <div class="row">
-          <div class="dynamic_formgrp col-sm-4">
-            <label class="mb-2 inputlabel ms-4" for="title">Title</label>
-            <div class="border-0 w-100 css-container">
-              <div class="select-field__control css1ctrl">
-                <div class="select-field__value-container css2ctrl">
-                  <div class="select-field__placeholder css3ctrl">Title</div>
-                  <input class="dummyinput value readonly" type="text" />
-                </div>
+
+          <div class="row">
+            <div class="col-sm-4">
+              <label class="mb-2 inputlabel ms-4" for="title">Title</label>
+              <div class="form-group">
+                <select
+                  class="form-select t_input"
+                  aria-label="Default select example"
+                >
+                  <option selected>Title</option>
+                  <option value="1">Mr.</option>
+                  <option value="2">Mrs.</option>
+                </select>
               </div>
             </div>
-          </div>
-
-          <div class="dynamic_formgrp col-sm-4">
-            <label class="mb-2 inputlabel ms-4" for="firstName"
-              >First Name</label
-            >
-            <input
-              class="t_input"
-              type="text"
-              name="First Name"
-              placeholder="First Name"
-            />
-          </div>
-
-          <div class="dynamic_formgrp col-sm-4">
-            <label class="mb-2 inputlabel ms-4" for="firstName"
-              >First Name</label
-            >
-            <input
-              class="t_input"
-              type="text"
-              name="First Name"
-              placeholder="First Name"
-            />
-          </div>
-
-          <div class="dynamic_formgrp col-sm-4">
-            <label class="mb-2 inputlabel ms-4" for="firstName"
-              >First Name</label
-            >
-            <input
-              class="t_input"
-              type="text"
-              name="First Name"
-              placeholder="First Name"
-            />
-          </div>
-
-          <div class="dynamic_formgrp col-sm-4">
-            <label class="mb-2 inputlabel ms-4" for="firstName"
-              >First Name</label
-            >
-            <input
-              class="t_input"
-              type="text"
-              name="First Name"
-              placeholder="First Name"
-            />
-          </div>
-
-          <div class="dynamic_formgrp col-sm-4">
-            <label class="mb-2 inputlabel ms-4" for="firstName"
-              >First Name</label
-            >
-            <input
-              class="t_input"
-              type="text"
-              name="First Name"
-              placeholder="First Name"
-            />
-          </div>
-
-          <div class="dynamic_formgrp col-sm-4">
-            <label class="mb-2 inputlabel ms-4" for="firstName"
-              >First Name</label
-            >
-            <input
-              class="t_input"
-              type="text"
-              name="First Name"
-              placeholder="First Name"
-            />
-          </div>
-
-          <div class="dynamic_formgrp col-sm-4">
-            <label class="mb-2 inputlabel ms-4" for="firstName"
-              >First Name</label
-            >
-            <input
-              class="t_input"
-              type="text"
-              name="First Name"
-              placeholder="First Name"
-            />
-          </div>
-
-          <div class="dynamic_formgrp col-sm-4">
-            <label class="mb-2 inputlabel ms-4" for="firstName"
-              >First Name</label
-            >
-            <input
-              class="t_input"
-              type="text"
-              name="First Name"
-              placeholder="First Name"
-            />
-          </div>
-
-          <div class="dynamic_formgrp col-sm-4">
-            <label class="mb-2 inputlabel ms-4" for="firstName"
-              >First Name</label
-            >
-            <input
-              class="t_input"
-              type="text"
-              name="First Name"
-              placeholder="First Name"
-            />
-          </div>
-
-          <div class="dynamic_formgrp col-sm-4">
-            <label class="mb-2 inputlabel ms-4" for="firstName"
-              >First Name</label
-            >
-            <input
-              class="t_input"
-              type="text"
-              name="First Name"
-              placeholder="First Name"
-            />
-          </div>
-
-          <div class="dynamic_formgrp col-sm-4">
-            <label class="mb-2 inputlabel ms-4" for="firstName"
-              >First Name</label
-            >
-            <input
-              class="t_input"
-              type="text"
-              name="First Name"
-              placeholder="First Name"
-            />
-          </div>
-
-          <div class="dynamic_formgrp col-sm-4">
-            <label class="mb-2 inputlabel ms-4" for="firstName"
-              >First Name</label
-            >
-            <input
-              class="t_input"
-              type="text"
-              name="First Name"
-              placeholder="First Name"
-            />
-          </div>
-
-          <div class="dynamic_formgrp col-sm-4">
-            <label class="mb-2 inputlabel ms-4" for="firstName"
-              >First Name</label
-            >
-            <input
-              class="t_input"
-              type="text"
-              name="First Name"
-              placeholder="First Name"
-            />
-          </div>
-        </div>
+  
+            <div class="dynamic_formgrp col-sm-4">
+              <label class="mb-2 inputlabel ms-4" for="firstName"
+                >First Name</label
+              >
+              <input
+                class="t_input"
+                type="text"
+                name="First Name"
+                placeholder="First Name"
+              />
+            </div>
+  
+            <div class="dynamic_formgrp col-sm-4">
+              <label class="mb-2 inputlabel ms-4" for="lastName">Last Name</label>
+              <input
+                class="t_input"
+                type="text"
+                name="Last Name"
+                placeholder="Last Name"
+              />
+            </div>
+  
+            <div class="dynamic_formgrp col-sm-4">
+              <label class="mb-2 inputlabel ms-4" for="phonenumber"
+                >Phone Number</label
+              >
+              <input
+                class="t_input"
+                type="tel"
+                name="Phone Number"
+                placeholder="Phone Number"
+              />
+            </div>
+  
+            <div class="dynamic_formgrp col-sm-4">
+              <label class="mb-2 inputlabel ms-4" for="alternatemobilenumber"
+                >Alternate Mobile Number</label
+              >
+              <input
+                class="t_input"
+                type="text"
+                name="Alternate Mobile Number"
+                placeholder="Alternate Mobile Number"
+              />
+            </div>
+  
+            <div class="dynamic_formgrp col-sm-4">
+              <label class="mb-2 inputlabel ms-4" for="Email">Email</label>
+              <input
+                class="t_input"
+                type="text"
+                name="Email"
+                placeholder="Email"
+              />
+            </div>
+  
+            <div class="dynamic_formgrp col-sm-4">
+              <label class="mb-2 inputlabel ms-4" for="City">City</label>
+              <input class="t_input" type="text" name="City" placeholder="City" />
+            </div>
+  
+            <div class="dynamic_formgrp col-sm-4">
+              <label class="mb-2 inputlabel ms-4" for="state">State</label>
+              <select name="state" id="state" class="t_input">
+                <option value="Select">Select</option>
+                <option value="Andhra Pradesh">Andhra Pradesh</option>
+                <option value="Andaman and Nicobar Islands">
+                  Andaman and Nicobar Islands
+                </option>
+                <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                <option value="Assam">Assam</option>
+                <option value="Bihar">Bihar</option>
+                <option value="Chandigarh">Chandigarh</option>
+                <option value="Chhattisgarh">Chhattisgarh</option>
+                <option value="Dadar and Nagar Haveli">
+                  Dadar and Nagar Haveli
+                </option>
+                <option value="Daman and Diu">Daman and Diu</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Lakshadweep">Lakshadweep</option>
+                <option value="Puducherry">Puducherry</option>
+                <option value="Goa">Goa</option>
+                <option value="Gujarat">Gujarat</option>
+                <option value="Haryana">Haryana</option>
+                <option value="Himachal Pradesh">Himachal Pradesh</option>
+                <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+                <option value="Jharkhand">Jharkhand</option>
+                <option value="Karnataka">Karnataka</option>
+                <option value="Kerala">Kerala</option>
+                <option value="Madhya Pradesh">Madhya Pradesh</option>
+                <option value="Maharashtra">Maharashtra</option>
+                <option value="Manipur">Manipur</option>
+                <option value="Meghalaya">Meghalaya</option>
+                <option value="Mizoram">Mizoram</option>
+                <option value="Nagaland">Nagaland</option>
+                <option value="Odisha">Odisha</option>
+                <option value="Punjab">Punjab</option>
+                <option value="Rajasthan">Rajasthan</option>
+                <option value="Sikkim">Sikkim</option>
+                <option value="Tamil Nadu">Tamil Nadu</option>
+                <option value="Telangana">Telangana</option>
+                <option value="Tripura">Tripura</option>
+                <option value="Uttar Pradesh">Uttar Pradesh</option>
+                <option value="Uttarakhand">Uttarakhand</option>
+                <option value="West Bengal">West Bengal</option>
+              </select>
+            </div>
+            <div class="dynamic_formgrp col-sm-4">
+                <label class="mb-2 inputlabel ms-4" for="newtoindustry"
+                  >New To Industry</label
+                >
+                <select class="t_input" name="newtoindustry" id="newtoindustry">
+                  <option selected value="Select">Select</option>
+                  <option value="Yes">Yes</option>
+                  <option value="No">No</option>
+                </select>
+              </div>
+    
+              <div class="dynamic_formgrp col-sm-4">
+                <label
+                  class="mb-2 inputlabel ms-4"
+                  for="Current Company Working With"
+                  >Current Company Working With</label
+                >
+                <input
+                  class="t_input"
+                  type="text"
+                  name="Current Company Working With"
+                  placeholder="Current Company Working With"
+                />
+              </div>
+    
+              <div class="dynamic_formgrp col-sm-4">
+                <label class="mb-2 inputlabel ms-4" for="Job Type">Job Type</label>
+                <select class="t_input" name="Job Type" id="Job Type">
+                  <option selected value="Select">Select</option>
+                  <option value="Full Time">Full Time</option>
+                  <option value="Part Time">Part Time</option>
+                </select>
+              </div>
+    
+              <div class="dynamic_formgrp col-sm-4">
+                <label
+                  class="mb-2 inputlabel ms-4"
+                  for="Are You Associated With
+                "
+                  >Are You Associated With
+                </label>
+                <select class="t_input"
+                  name="Are You Associated With
+                "
+                  id="Are You Associated With
+                "
+                >
+                  <option selected value="Select">Selected</option>
+                  <option value="Mutual Fund">Mutual Fund</option>
+                  <option value="Life Insurance">Life Insurance</option>
+                  <option value="General Insurance">Life Insurance</option>
+                </select>
+              </div>
+    
+              <div class="dynamic_formgrp col-sm-4">
+                <label class="mb-2 inputlabel ms-4" for="Line Of Business"
+                  >Line Of Business</label
+                >
+                <select class="t_input" name="Line Of Business" id="Line Of Business">
+                  <option selected value="Select">Select</option>
+                  <option value="Travel">Travel</option>
+                  <option value="Motor">Motor</option>
+                  <option value="Health">Health</option>
+                </select>
+              </div>
+    
+              <div class="dynamic_formgrp col-sm-4">
+                <label class="mb-2 inputlabel ms-4" for="Annual Business Potential"
+                  >Annual Business Potential</label
+                >
+                <select class="t_input" name="Line Of Business" id="Line Of Business">
+                  <option selected value="Select">Select</option>
+                  <option value="<=6Lakhs"><=6Lakhs</option>
+                  <option value="6-12 Lakhs">6-12 Lakhs</option>
+                  <option value="12-36 Lakhs">12-36 Lakhs</option>
+                  <option value="36-60 Lakhs">36-60 Lakhs</option>
+                  <option value="> 60 Lakhs">> 60 Lakhs</option>
+                </select>
+              </div>
+            </div>
+    
 
         <!-- button row -->
         <div class="row">
@@ -314,6 +351,74 @@
         </div>
       </form>
     </div>
+    <div class="container-fluid div3">
+
+        <h3 class="main-heading">What Tata AIG offers you?</h3>
+        <ul class="ms-5 ps-5 mb-5 mt-4 tata-list">
+            <li class="mb-4 small">
+                <img src="./check-bullets-image.png" class="rounded float-start check-bullets" alt="...">
+                <span> Learning opportunity for you with our exclusive Tata AIG Academy which</span> <br>
+                <span>helps you to enhance your skills</span></li>
+                <li class="mb-4 small">
+                    <img src="./check-bullets-image.png" class="rounded float-start check-bullets" alt="...">
+                    <span> Claim servicing in need is what customer buys & at Tata AIG customer </span> <br>
+                    <span> claim are serviced by an experienced in-house claims management team </span></li>
+                    <li class="mb-4 small">
+                <img src="./check-bullets-image.png" class="rounded float-start check-bullets" alt="...">
+                <span>  Comprehensive product solutions – Motor , Health, Travel & Corporate risk </span><br>
+                <span> solutions </span></li>
+                <li class="small">
+                    <img src="./check-bullets-image.png" class="rounded float-start check-bullets" alt="...">
+                    <span> Business development support and handhold at each progressive step </span></li>
+                </ul>
+                <img src="./ppp.png" class="rounded float-end men-photo" alt="...">
+                
+                <br><br><br><br>
+            </div>
+    
+        <div class="contact-div container shadow ">
+            <img src="pic1.png" class="rounded float-start tata-logo-bottom shadow" alt="...">
+            <p class="download small mt-5 float-start">Download Our App</p>
+            <img src="./picccc.jpeg" class="rounded float-start google-play" alt="...">
+            <p class="follow-us small mt-5 float-start">Follow Us</p>
+            <p class=" float-start  social-media facebook"><i class="bi bi-facebook"></i></p>
+            <p class=" float-start social-media linkedin"><i class="bi bi-linkedin"></i></p>
+            <p class=" float-start social-media twitter"><i class="bi bi-twitter"></i></p>
+            <p class=" float-start social-media instagram  "><i class="bi bi-instagram"></i></p>
+            <p class=" float-start social-media youtube"><i class="bi bi-youtube"></i></p>
+            <ul class="tata-company-list">
+                <li class="mb-4 tata-list-heading">Company</li>
+                <li class="small tata-list-subheading">About Us</li>
+                <li class="small tata-list-subheading">Public Disclosures</li>
+                <li class="small tata-list-subheading">Contact Us</li>
+                <li class="small tata-list-subheading">Careers</li>
+                <li class="small tata-list-subheading">Agent Registration</li>
+            </ul>
+    
+            <ul class="tata-resouces-list">
+                <li class="mb-4 tata-list-heading">Resouces</li>
+                <li class="small tata-list-subheading">Blog</li>
+                <li class="small tata-list-subheading">Insurance FAQs</li>
+            </ul>
+    
+            <ul class="tata-services-list">
+                <li class="mb-4 tata-list-heading">Renewals</li>
+                <li class="small tata-list-subheading">Self Service</li>
+                <li class="small tata-list-subheading">Vehicle Inspection</li>
+            </ul>
+          </div><br>
+          
+        <div class="insurance-div container shadow ">
+            <span class="ms-5 me-5 mt-2 float-start" >Health Insurance</span>
+            <hr class="float-start"> 
+            <span class="ms-5 me-5 mt-2 float-start" >Motor Insurance</span>
+            <hr class="float-start"> 
+            <span class="ms-5 me-5 mt-2 float-start" >Travel Insurance</span>
+            <hr class="float-start"> 
+            <span class="ms-5 me-5 mt-2 float-start" >Other Insurance</span> 
+            <button class="insurance-button ms-5">&#9660</button>
+          </div>
+    
     <div class="footer-div px-5"><br>
         <center> <a href="#" class="footer-about link-light ms-0 text-decoration-none small ">Disclaimer</a>
          <span class="ms-3 text-light">|</span>
